@@ -1,2 +1,4 @@
 /target/**
-a.out
+/.vscode/**
+/.idea/**
+/a.out
