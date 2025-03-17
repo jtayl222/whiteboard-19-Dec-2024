@@ -1,15 +1,10 @@
 
-```bash
-$ export CPLUS_INCLUDE_PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/include/c++/v1
-$ clang++ -std=c++11 Josephus.cpp 
-$ ./a.out
-```
 
 Docker:
 ```bash
 $ mvn clean package
 $ jar -tvf target/josephus-api-1.0-SNAPSHOT.jar
-$ inikube docker-env
+$ minikube docker-env
 $ eval $(minikube -p minikube docker-env)
 $ docker build -t josephus-api:1.0 .
 ```
